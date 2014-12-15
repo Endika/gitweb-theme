@@ -71,7 +71,7 @@ a:hover {
   text-decoration: underline;
 }
 
-td.list a[href*='a=tree'], td.list a[href*='a=blob'] {
+td.list a[href*='tree'], td.list a[href*='blob'] {
   padding-left: 20px;
   display: block;
   float: left;
@@ -79,11 +79,11 @@ td.list a[href*='a=tree'], td.list a[href*='a=blob'] {
   line-height: 16px;
 }
 
-td.list a[href*='a=tree'] {
+td.list a[href*='tree'] {
   background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAABq0lEQVQ4y8WTu4oUQRSGv+rtGVuxhwVFdFEEE2c3d0HYTEMTn8DEVxADQTDUF9DMwMxQMBMx8AEWzRQ3cBHd9TI91+2urjq/QbczY2IygSep4nD+79yqnCRWsYQVbWVACvDh5ZXdrLe15dwyT1TjT/sxFFeB6i+VA2B6+cb7kAI4Jf0LO087zjlQI8Y5Qvnj0sHug321XoC1bk+K9eHk6+s7wPMUgKAS88eqb4+Jfg2SHs7lZBvX2Nh+2EUCDGSAcMnJsx9f7NxfAGqXyDzRd5EJO/pMPT1gcviGTnYOVIN5pAAE8v7dLrKL8xnglFk4ws9Afko9HpH3b5Gd2mwb/lOBmgrSdYhJugDUCenxM6xv3p4HCsP8F0LxCsUhCkMURihOyM7fg0osASTFEpu9a4LjGIUCqwcoDiEUrX+E4hRUQb20RiokC1j9vckUhygU7X3QZh7NAVKYL7YBeMkRUfjVCotF2XGIwnghtrJpMywB5G0QZj9P1JNujuWJ1AHLQadRrACPkuZ0SSSWpeStWgDK6tHek5vbiOs48n++XQHurcf0rFng//6NvwG+iB9/4duaTgAAAABJRU5ErkJgggo=) center left no-repeat;
 }
 
-td.list a[href*='a=blob'] {
+td.list a[href*='blob'] {
   background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAQAAAC1+jfqAAAA6ElEQVQoFQXBMW5TQRgGwNnHnoE0QbiCjoIooUmTU3AuS1BwIoTSUdJBigg3GCWOg9/++zHTop078wIAsPMrE4SL5/1aIyMjIyMjz/m0tbFECFdrPeaQQw75mz/5nZH7fN7aWILmauSYfznmmIfss8vIUx7zZWsTTXM5vpWvTk5Wq9VHQP/gtgOLa0Qpw940vAQdaG6thpOhlOkG0AEuAVGmEkAH+G4YSikxXQM6wDsAMRFAB/ihDNNUmN4DOsAbBAEAdICfpmmaAt4COoj2GgCASbIkZh1NAACznhQt2itnFgAAlF3u/gMDtJXPzQxoswAAAABJRU5ErkJgggo=) center left no-repeat;
 }
 
@@ -313,8 +313,8 @@ th .header {
 .readme {
   background: #eaf2f5;
   border: 1px solid #bedce7;
-  -moz-box-sizing: border-box; 
-  -webkit-box-sizing: border-box; 
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
   box-sizing: border-box;
   margin: 0 auto 15px auto;
   padding: 15px;
@@ -500,7 +500,7 @@ span.refs span.ref {
   height: 18px;
   padding: 0 6px;
   text-overflow: ellipsis;
-  background-image: url('ref.png');
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAMAAABhEH5lAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3gIKFSUnpolg7AAAAHJQTFRFAAAAVVWqZmbMVVXVYGDgbW3td3fuc3PzdHT0cHD1d3f6dHT6dnb7dHT7dnb8dnb8dnb9d3f9dnb+eHj+d3f+eHj+d3f+d3f+d3f+eHj+d3f+eHj+d3f+eHj+d3f+d3f+eHj+d3f+d3f+d3f+eHj/////V9oQhQAAACR0Uk5TAAIEBQcNDhMVGCotNTZAT217i5CgobvExtjZ4eLr7vP09ff7uqQ6cgAAAAFiS0dEJcMByQ8AAABUSURBVBjTpc43AoAwDENRh95bgNBM1f3PyOpslD++RSJ61YgH5M2IbIkn4GocSR1MZVBL4t2n4FgkbaxI8Sqph041WknZCWAIrcmEUbpf3lNe0N9u59YFYHnZ78gAAAAASUVORK5CYII=);
   background-repeat: no-repeat;
   padding-left: 18px;
 }
@@ -515,7 +515,7 @@ span.refs span.tag {
   height: 18px;
   padding: 0 6px;
   text-overflow: ellipsis;
-  background-image: url('tag.png');
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAMAAABhEH5lAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3gIKFSUZZ+h9RwAAAGZQTFRFAAAAtrYkwMBAwMBAx8c4yso11NQ71NQ51dU52Ng71tY519c719c719c62Ng719c719c62Ng72dk62Ng62Ng72Ng72dk62Ng72Ng62dk62dk72dk62Ng62dk72Ng72Ng72dk7////ou/AnQAAACB0Uk5TAAYHCxESLjRCWWlqa4uNkpissbrO19jc3ufs8vf6/f7atAU2AAAAAWJLR0QhxGwNFgAAAF1JREFUGFeNy0cOgCAABVGw94rY5d//lC7omhhn+ZIh5Gf1xPk0Zi5dAABROIQjSU/fsAXhDkCUljAv8jW2wlQpaixpo4Nj+dtatVpjkSJjLNaizRVpvhBCu/4h391jzw1lU12Z7wAAAABJRU5ErkJggg==);
   background-repeat: no-repeat;
   padding-left: 18px;
 }
@@ -530,7 +530,7 @@ span.refs span.head {
   height: 18px;
   padding: 0 6px;
   text-overflow: ellipsis;
-  background-image: url('head.png');
+  background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABIAAAASCAYAAABWzo5XAAAABmJLR0QA/wD/AP+gvaeTAAAACXBIWXMAAAsTAAALEwEAmpwYAAAAB3RJTUUH3gIKFSYDsafX/gAAAUpJREFUOMvVkjFLA0EQhd/s7l06MSCihbV/wC5/QBDEIFYWprRIIQQJFqKFQi4kUbBQsFSwtrUQLQULUTBFLCzVIgimCXe7z0q5yIWcqfRVwzDzMTNvgL8mSUqWw3JOtFQJdsIwLDYyjdYgkEmkazl2oVtQWk36nn8AYBYASmFpxmizGtnoqO7Vb+M9KglEkASdpWU872nvVCiPRpuTnz2JIHGyqX3d0kZfR1G0Ht+g/do+FIhOBbLW3n/FNb/28D0puZ+dyL44ur1UoH5yzt2JyIj6UGdDgwrPhYzSagNEszJaeU/lWlylbmnaeGZZICsAppxzi6nt73HK85oQCMknOuarpno+FIjglVjZDXaCS2yDv3rIHlCb88FY0BlUl3hs7ektkhckb5DFWhoz+n12zr7ZPLpYUqLm0oBMn8NUzLhpAgjpWMS/1CcSJ3ykD7Rk1QAAAABJRU5ErkJggg==);
   background-repeat: no-repeat;
   padding-left: 18px;
 }
@@ -571,8 +571,14 @@ div.diff.from_file {
 .rem {
   background: #ffdddd;
 }
+.rem .marked {
+  background: #ffaaaa;
+}
 .add {
   background: #ddffdd;
+}
+.add .marked {
+  background: #7dff7d;
 }
 
 .extended_header {
@@ -609,6 +615,20 @@ div.chunk_block div.new {
   margin-left: 50%;
   width: 50%;
   border-left: 5px solid #EAF2F5;
+}
+
+/* Category
+---------------------------------------------------------------------------- */
+
+td.category {
+  background: #E6F1F6; /* old browsers */
+  background: -moz-linear-gradient(top, #C8D8E7 0%, #E6F1F3 100%); /* firefox */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#C8D8E7), color-stop(100%,#E6F1F3)); /* webkit */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#C8D8E7', endColorstr='#E6F1F3',GradientType=0 ); /* ie */
+  background: -o-linear-gradient(top, #C8D8E7 0%, #E6F1F3 100%);
+  font-weight: bold;
+  border-bottom: 1px solid #D1D1D1;
+  border-top: 1px solid #D1D1D1;
 }
 
 /* Age
@@ -676,6 +696,38 @@ td.error {
 
 td.pre, div.pre, div.diff {
   white-space: pre-wrap;
+}
+
+/* JavaScript-based timezone manipulation */
+
+.popup { /* timezone selection UI */
+	position: absolute;
+	/* "top: 0; right: 0;" would be better, if not for bugs in browsers */
+	top: 0; left: 0;
+	border: 1px solid #d8d8d8;
+	padding: 2px;
+	background-color: #f0f0f0;
+	font-style: normal;
+	color: #545454;
+	cursor: auto;
+}
+
+.close-button { /* close timezone selection UI without selecting */
+	/* float doesn't work within absolutely positioned container,
+	 * if width of container is not set explicitly */
+	/* float: right; */
+	position: absolute;
+	top: 0px; right: 0px;
+	border:  1px solid #ffaaaa;
+	margin:  1px 1px 1px 1px;
+	padding-bottom: 2px;
+	width:     12px;
+	height:    10px;
+	font-size:  9px;
+	font-weight: bold;
+	text-align: center;
+	background-color: #ffdddd;
+	cursor: pointer;
 }
 
 /* Style definition generated by highlight 2.4.5, http://www.andre-simon.de/ */
